@@ -1,6 +1,6 @@
 module.exports = function reverse (n) {
     let result = '';
-    let str = n.toString();
+    let str = Math.abs(n).toString();
     let i = 0;
     let a = 1
   
@@ -10,5 +10,5 @@ module.exports = function reverse (n) {
       a++;
     }
   
-    return Number(result);
+    return result;
 }
